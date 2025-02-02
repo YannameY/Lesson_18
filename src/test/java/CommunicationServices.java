@@ -19,7 +19,7 @@ public class CommunicationServices {
 
     @BeforeAll
     public static void setUp() {
-        System.setProperty("webdriver.chrome.driver", "/Users/Yan/Downloads/chromedriver/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://www.mts.by");
         closeCookieConsent();
